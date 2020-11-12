@@ -14,6 +14,10 @@ public struct FoodItem: Decodable {
         self.price = price
     }
     
+    private func updateInfo() {
+        print("test updateInfo method")
+    }
+    
     public let name: String
     public let price: Int
 }
